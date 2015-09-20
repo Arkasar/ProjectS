@@ -7,9 +7,6 @@ import android.database.sqlite.SQLiteOpenHelper;
 import android.provider.BaseColumns;
 import android.util.Log;
 
-/**
- * Created by Аркадий on 20.09.2015.
- */
 public class DatabaseHelper extends SQLiteOpenHelper implements BaseColumns {
     private static final String DATABASE_NAME = "schedule.db";
     private static final int DATABASE_VERSION = 1;
